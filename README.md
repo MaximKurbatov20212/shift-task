@@ -7,4 +7,4 @@
     mvn compile
 
 # Запуск
-    mvn exec:java -Dexec.mainClass=nsu.maxwell.Main -Dexec.args=-s -a -f -p simple- in1.txt in2.txt
+    mvn exec:java -Dexec.mainClass=nsu.maxwell.Main -Dexec.args="-s -a -f -p simple- in1.txt in2.txt"
